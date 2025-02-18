@@ -152,6 +152,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  derivations:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
