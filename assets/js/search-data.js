@@ -389,7 +389,32 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
+    },{id: "derivations-mass-energy-equivalence",
+          title: 'Mass-Energy Equivalence',
+          description: "",
+          section: "Derivations",handler: () => {
+              window.location.href = "/derivations/emc2/";
+            },},{id: "derivations-the-exponential-function-as-a-solution-to-linear-dynamical-systems",
+          title: 'The exponential function as a solution to linear dynamical systems',
+          description: "",
+          section: "Derivations",handler: () => {
+              window.location.href = "/derivations/exponential/";
+            },},{id: "derivations-the-integral-of-the-gaussian-distribution",
+          title: 'The integral of the Gaussian distribution',
+          description: "",
+          section: "Derivations",handler: () => {
+              window.location.href = "/derivations/gaussian/";
+            },},{id: "derivations-the-score-function-trick-for-reinforce",
+          title: 'The score function trick for REINFORCE',
+          description: "",
+          section: "Derivations",handler: () => {
+              window.location.href = "/derivations/reinforce/";
+            },},{id: "derivations-map-estimate-of-a-linear-model",
+          title: 'MAP estimate of a linear model',
+          description: "",
+          section: "Derivations",handler: () => {
+              window.location.href = "/derivations/ridge/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -420,21 +445,6 @@ ninja.data = [{
           description: "The material that civilisations are built on",
           section: "Projects",handler: () => {
               window.location.href = "/projects/clinker/";
-            },},{id: "projects-mass-energy-equivalence",
-          title: 'Mass-Energy Equivalence',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/emc2/";
-            },},{id: "projects-the-exponential-function-as-a-solution-to-linear-dynamical-systems",
-          title: 'The exponential function as a solution to linear dynamical systems',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/exponential/";
-            },},{id: "projects-the-integral-of-the-gaussian-distribution",
-          title: 'The integral of the Gaussian distribution',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/gaussian/";
             },},{id: "projects-gaussian-processes-from-scratch",
           title: 'Gaussian Processes, from scratch',
           description: "Gain a deeper understanding of Gaussian processes by implementing them with only NumPy",
@@ -460,16 +470,6 @@ ninja.data = [{
           description: "A simple tutorial",
           section: "Projects",handler: () => {
               window.location.href = "/projects/physics/";
-            },},{id: "projects-the-score-function-trick-for-reinforce",
-          title: 'The score function trick for REINFORCE',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/reinforce/";
-            },},{id: "projects-map-estimate-of-a-linear-model",
-          title: 'MAP estimate of a linear model',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ridge/";
             },},{
         id: 'social-email',
         title: 'email',
